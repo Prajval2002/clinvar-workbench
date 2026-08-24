@@ -1,0 +1,40 @@
+# Nextflow
+work/
+.nextflow/
+.nextflow.log
+.nextflow.log.*
+
+# Local data
+data/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Sequencing outputs
+*.bam
+*.bai
+*.cram
+*.crai
+*.sam
+*.vcf
+*.vcf.gz
+*.tbi
+*.g.vcf.gz
+
+# Reports / generated outputs
+reports/
+results/
+*.html
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
