@@ -15,9 +15,7 @@ workflow VARIANT_SLICE {
 
     main:
 
-    MARK_DUPLICATES(
-        slice_bam
-    )
+    MARK_DUPLICATES(slice_bam)
 
     dedup_input = MARK_DUPLICATES.out.dedup.map {
         sample_id, bam, bai, metrics ->
