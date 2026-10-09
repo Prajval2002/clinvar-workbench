@@ -38,3 +38,22 @@ __pycache__/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Local bioinformatics data and results
+# Local bioinformatics data
+data/
+results/
+work/
+.nextflow/
+.nextflow.log*
+__pycache__/
+*.py[cod]
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.vcf
+*.vcf.gz
+*.tbi
